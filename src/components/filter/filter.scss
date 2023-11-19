@@ -1,0 +1,35 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  padding: 20px 30px;
+  margin: 10px auto;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  p {
+    margin-right: 10px;
+  }
+  input {
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(135, 105, 210);
+    padding: 5px;
+    text-align: center;
+  }
+  button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: 1px solid #7957cc;
+    background: #7957cc;
+    color: #fff;
+    border-radius: 5px;
+
+  }
+  button:hover {
+    background: inherit;
+    color: #000;
+  }
+}
