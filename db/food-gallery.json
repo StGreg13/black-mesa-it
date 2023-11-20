@@ -1,41 +1,49 @@
 {
   "pizza": [
     {
+      "id": 1,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-velikolepnaja-semerka-30-sm-medium-rectangular-fb8c2da00b014d99b40c004f2e9b81f2.jpeg",
       "name": "Пицца «Великолепная семерка»",
       "cost": "399"
     },
     {
+      "id": 2,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-ot-shefa-na-tradicionnom-teste-30-sm-medium-rectangular-c12db378753447348f84b4fe4a9a75d7.jpeg",
       "name": "Пицца «От шефа»",
       "cost": "425"
     },
     {
+      "id": 3,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-shashlychnaja-30-sm-medium-rectangular-518933a535534b3ca16d73ea7ae2cce6.jpeg",
       "name": "Пицца «Шашлычная»",
       "cost": "424"
     },
     {
+      "id": 4,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-slivochnaja-pepperoni-30-sm-medium-rectangular-10cc1023216e44efa525fa5b7f712145.jpeg",
       "name": "Пицца «Сливочная пепперони»",
       "cost": "379"
     },
     {
+      "id": 5,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-alfredo-30-sm-medium-rectangular-21e39e3b9b834945bcd4d0ced2acd243.jpeg",
       "name": "Пицца «Альфредо»",
       "cost": "409"
     },
     {
+      "id": 6,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-chiken-chiz-30-sm-medium-rectangular-049237fd45dc4cd5b0f1a12ad8c58525.jpeg",
       "name": "Пицца «Чикен Чиз»",
       "cost": "419"
     },
     {
+      "id": 7,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-vetchina-i-griby-30-sm-medium-rectangular-801e8a3d0617429f92c36f635283f5c5.jpeg",
       "name": "Пицца «Ветчина и грибы»",
       "cost": "359"
     },
     {
+      "id": 8,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-gavajjskaja-30-sm-medium-rectangular-49c27e4901a9478e8babc8c9087bcaa7.jpeg",
       "name": "Пицца «Гавайская»",
       "cost": "369"
@@ -43,41 +51,49 @@
   ],
   "sushi": [
     {
+      "id": 9,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/roll-losos-i-kabachok-medium-rectangular-b1969fc8a37f4e50acb55322643af4f6.jpeg",
       "name": "Ролл «Лосось и Кабачок»",
       "cost": "499"
     },
     {
+      "id": 10,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/roll-s-kabachkom-i-ugrjom-medium-rectangular-94bce800bb4c4769b49aab15b9659dd7.jpeg",
       "name": "Ролл с кабачком и угрём",
       "cost": "269"
     },
     {
+      "id": 11,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/opalennyjj-roll-kurica-v-cheddere-medium-rectangular-38afa20ccfb343e2b80ea7d51276b2af.jpeg",
       "name": "Опаленный ролл «Курица в чеддере»",
       "cost": "169"
     },
     {
+      "id": 12,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/zapechennyjj-roll-losos-i-krevetka-medium-rectangular-359b35c9c6744cee99490975d2070922.jpeg",
       "name": "Запеченный ролл «Лосось и Креветка»",
       "cost": "319"
     },
     {
+      "id": 13,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/zapechennyjj-roll-ugor-i-losos-medium-rectangular-cc0ddf1935704e20aa6bd413818676da.jpeg",
       "name": "Запеченный ролл «Угорь и Лосось»",
       "cost": "259"
     },
     {
+      "id": 14,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/ostryjj-roll-krab-s-shichimi-medium-rectangular-55fb702cde0643ceb35aff2cda9a0768.jpeg",
       "name": "Острый ролл «Краб с шичими»",
       "cost": "139"
     },
     {
+      "id": 15,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/maki-s-ogurcom-medium-rectangular-f0d3441c4e9a4c26a38a7edff1bd8c87.jpeg",
       "name": "Маки с огурцом",
       "cost": "149"
     },
     {
+      "id": 16,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/sushi-i-rolly/maki-s-tuncom-medium-rectangular-399864dffe25485cb65c985b2612bb36.jpeg",
       "name": "Маки с тунцом",
       "cost": "239"
@@ -85,31 +101,37 @@
   ],
   "burger": [
     {
+      "id": 17,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/dor-blju-burger-medium-rectangular-54a598f3245a46658d4ced717645ed85.jpeg",
       "name": "Дор Блю бургер",
       "cost": "399"
     },
     {
+      "id": 18,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/chikenburger-medium-rectangular-1ba4fe88378c4236b4cc77235c9129a5.jpeg",
       "name": "Чикенбургер",
       "cost": "289"
     },
     {
+      "id": 19,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/bbq-burger-medium-rectangular-7745b43c26cd4825ba2fa0951ce37af6.jpeg",
       "name": "BBQ-бургер",
       "cost": "299"
     },
     {
+      "id": 20,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/chizburger-medium-rectangular-d9a77d1381804ab5b770a805ef6807b6.jpeg",
       "name": "Чизбургер",
       "cost": "319"
     },
     {
+      "id": 21,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/klassik-burger-medium-rectangular-8aecd4f281ee4e53bca5e1bde3487df3.jpeg",
       "name": "Классик-бургер",
       "cost": "259"
     },
     {
+      "id": 22,
       "image": "https://cdn.dostaevsky.ru/storage/dostaevsky/burgery/dabl-burger-medium-rectangular-19fee281b1b44b2a97102b49df4cf7c8.jpeg",
       "name": "Дабл-бургер",
       "cost": "139"

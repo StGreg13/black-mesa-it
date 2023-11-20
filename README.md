@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Black Mesa IT
+
+Welcome to the Black Mesa IT repository, a test project by Gregory Stepanov that showcases a simple store with multiple categories and filtering capabilities.
+
+## Getting Started with Docker
+
+The application is containerized with Docker, allowing for easy setup and execution. To run the entire application, simply use the following command:
+
+```bash
+docker run -it --rm --name black-mesa-it -p 3000:3000 -p 3001:3001 stgreg13/black-mesa-it:latest
+```
+
+## Stack
+
+- **Framework**: Next.js 14.0.3
+- **Language**: JavaScript/TypeScript
+- **Styling**: SASS
+- **Backend**: json-server for mock API data
+- **Containerization**: Docker
+
+## Architecture
+
+The project is structured to follow best practices of Next.js development, with a focus on modular components, services for API calls, and comprehensive styling using SASS.
+
+- `src/components`: Reusable UI components like filters, food lists, and catalog displays.
+- `src/services`: Services for handling API interactions.
+- `src/app`: Core application logic and styling.
+- `db`: Mock database in the form of `json-server`, providing an API for development use.
+
+## Libraries
+
+- **react & react-dom**: For building the user interface.
+- **json-server**: To mock RESTful API endpoints.
+- **sass**: Preprocessor scripting language that is interpreted or compiled into CSS.
+- **typescript**: For adding static type definitions to JavaScript.
+
+## Functionality
+
+- **Catalog Display**: Users can browse through a catalog of items.
+- **Filtering**: Items can be filtered based on categories.
+- **Data Fetching**: Utilizes `json-server` to simulate fetching data from an API.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/StGreg13/black-mesa-it.git
+cd black-mesa-it
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Docker Support
 
-You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A Docker file is included to containerize the application. Build configured via Github actions
