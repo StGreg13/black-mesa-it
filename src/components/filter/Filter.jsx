@@ -17,14 +17,16 @@ const Filter = ({ minCost, maxCost, onMinCostSelected, onMaxCostSelected }) => {
         type="text"
         value={tempMinCost || ''}
         onChange={(e) => setTempMinCost(Number(e.target.value))}
+        placeholder='от'
       />
       <span>-</span>
       <input
         type="text"
         value={tempMaxCost || ''}
         onChange={(e) => setTempMaxCost(Number(e.target.value))}
+        placeholder='до'
       />
-      <button onClick={handleApplyFilter}>Применить</button>
+      {/*<button onClick={handleApplyFilter}>Применить</button>*/}
     </div>
   );
 };
